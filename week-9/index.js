@@ -56,9 +56,11 @@ class Deck {
 
 class Player {
   constructor(name) {
+    // player name
     this.name = name;
     // hand array represents the players cards
     this.hand = [];
+    // each player starts with a score of 0
     this.score = 0;
   }
 
